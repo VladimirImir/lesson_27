@@ -28,6 +28,6 @@ public class User extends Person implements Serializable, Comparable<User> {
     public String toString() {
         return "User{" +
                 "name='" + name + '\'' +
-                '}';
+                '}' + super.toString();
     }
 }
